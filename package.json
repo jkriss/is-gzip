@@ -1,0 +1,21 @@
+{
+  "name": "is-gzip",
+  "version": "1.0.0",
+  "description": "Quickly test to see if a file is gzipped based on its magic number",
+  "repository": "jkriss/is-gzip",
+  "main": "index.js",
+  "keywords": [
+    "gzip"
+  ],
+  "scripts": {
+    "test": "node test/is-gzip"
+  },
+  "author": "Jesse Kriss <jesse@jklabs.net>",
+  "license": "MIT",
+  "dependencies": {
+    "read-chunk": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
